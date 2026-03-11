@@ -1,8 +1,4 @@
 // CONTROL FLOW STATEMENTS
-var i;
-for (i=0; i<3; i++) {
-    console.log(i);
-}
 
 // for
 var count;
