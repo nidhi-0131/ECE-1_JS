@@ -1,3 +1,4 @@
+// primitive data types: number, boolean, string, null, undefined
 var num = 10;
 console.log(num);
 console.log(typeof(num));
@@ -16,3 +17,14 @@ console.log(typeof(num));
 var no;
 console.log(no);
 console.log(typeof(no));
+
+// symbol data type
+const sym1 = Symbol(4)
+console.log(sym1);
+const sym2 = Symbol(4);
+console.log(sym2);
+if (sym1 == sym2) {
+    console.log("true");
+} else {
+    console.log("false"); // because each symbol is unique
+}
